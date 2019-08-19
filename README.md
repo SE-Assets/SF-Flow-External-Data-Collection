@@ -4,13 +4,9 @@
 [![Salesforce API v46.0](https://img.shields.io/badge/Salesforce%20API-v46.0-blue.svg)]()
 [![Lightning Experience Required](https://img.shields.io/badge/Lightning%20Experience-Required-informational.svg)]()
 [![User License Sales](https://img.shields.io/badge/User%20License-Platform-032e61.svg)]()
-[![Apex Test Coverage 0](https://img.shields.io/badge/Apex%20Test%20Coverage-25-red.svg)]()
+[![Apex Test Coverage 0](https://img.shields.io/badge/Apex%20Test%20Coverage-0-red.svg)]()
 
 >A collection of Flows and assoc whatnots that leverage External Objects, HTTP Requests, and Apex Data Types so you know how to do it too!
-
-Longform description. No title here. The quote I stole to define this from the template is - 
-* "This should describe your module in broad terms, generally in just a few paragraphs; more detail of the module's routines or methods, lengthy code examples, or other in-depth material should be given in subsequent sections.
-Ideally, someone who's slightly familiar with your module should be able to refresh their memory without hitting "page down". As your reader continues through the document, they should receive a progressively greater amount of knowledge." - Kirrily "Skud" Robert, perlmodstyle
 
 We have here what might be a growing set of Flow examples, along with objects and Apex to support em, that show different ways of hitting external sources of data from Flow. First is using __x or External Objects via Salesforce Connect, second doing direct HTTP Requests from Apex. Also playing a bit with Apex Types as well. General idea here isn't to have something crazy robust, but to give you a bit of a baseline as to how you combine all of these amazing flavors into a single soup to get external data if you aren't lucky enough to be working with an OpenAPI/Swagger endpoint, which Flow has way more fun around. 
 
